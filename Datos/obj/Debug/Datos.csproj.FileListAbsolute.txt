@@ -1,0 +1,18 @@
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\bin\Debug\Datos.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\bin\Debug\Datos.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\bin\Debug\Entidades.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\bin\Debug\Entidades.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\bin\Debug\Datos.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\bin\Debug\Datos.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\bin\Debug\Entidades.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\bin\Debug\Entidades.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Datos\obj\Debug\Datos.pdb

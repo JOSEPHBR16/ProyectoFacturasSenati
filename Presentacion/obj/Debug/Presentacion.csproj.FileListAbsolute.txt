@@ -1,0 +1,46 @@
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Productos.resources
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\RdlCompile.cache
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\RdlCompile.compiled
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Datos.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Negocio.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Datos.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Entidades.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Productos.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\RdlCompile.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\RdlCompile.compiled
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Datos.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Entidades.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Negocio.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Datos.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Entidades.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Clientes.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.RegistrarCliente.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.EditarCliente.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Principal.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Login.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Ventas.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.RegistrarVentas.resources

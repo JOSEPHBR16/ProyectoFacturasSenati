@@ -1,0 +1,22 @@
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Negocio.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Negocio.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Datos.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Datos.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.pdb
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Entidades.dll
+C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Entidades.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Negocio.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Negocio.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Datos.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Entidades.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Datos.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\bin\Debug\Entidades.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Negocio\obj\Debug\Negocio.pdb
