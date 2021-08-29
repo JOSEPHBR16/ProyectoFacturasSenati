@@ -145,5 +145,12 @@ namespace Presentacion
         {
             Application.Exit();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RegistroUsuario registro = new RegistroUsuario();
+            Hide();
+            registro.ShowDialog();
+        }
     }
 }

@@ -124,3 +124,4 @@ C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\De
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.Producto.resources
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.EditarProducto.resources
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.RegistrarProducto.resources
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Presentacion\obj\Debug\Presentacion.RegistroUsuario.resources

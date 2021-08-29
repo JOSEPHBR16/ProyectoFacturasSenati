@@ -11,11 +11,16 @@ namespace Negocio
 {
     public class N_Usuarios
     {
-        D_Usuario objDato = new D_Usuario();
+        D_Usuario objDatos = new D_Usuario();
 
         public DataTable LoginUser(E_Usuarios usuarios)
         {
-            return objDato.LoginUser(usuarios);
+            return objDatos.LoginUser(usuarios);
+        }
+
+        public void RegistrarUsuarios(E_Usuarios usuarios)
+        {
+            objDatos.RegistrarUsuario(usuarios);
         }
     }
 }

@@ -38,5 +38,29 @@ namespace Datos
             }
             return dt;
         }
+
+        public void RegistrarUsuario(E_Usuarios usuarios)
+        {
+            try
+            {
+                SqlConnection cnn = Conexion.getConexion();
+                SqlCommand cmd = new SqlCommand("usp_CrearUsuario", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Nombre", usuarios.Nombres);
+                cmd.Parameters.AddWithValue("@Apellidos", usuarios.Apellidos);
+                cmd.Parameters.AddWithValue("@Usuario", usuarios.Usuario);
+                cmd.Parameters.AddWithValue("@Contrasenia", usuarios.Contrasenia);
+                cnn.Open();
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                Conexion.getClose();
+            }
+        }
     }
 }
