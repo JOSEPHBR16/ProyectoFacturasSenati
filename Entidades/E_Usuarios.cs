@@ -14,6 +14,7 @@ namespace Entidades
         private string _usuario;
         private string _contrasenia;
         private int _idRol;
+        private string _rol;
 
         public int IdUsuario { get => _idUsuario; set => _idUsuario = value; }
         public string Nombres { get => _nombres; set => _nombres = value; }
@@ -21,5 +22,6 @@ namespace Entidades
         public string Usuario { get => _usuario; set => _usuario = value; }
         public string Contrasenia { get => _contrasenia; set => _contrasenia = value; }
         public int IdRol { get => _idRol; set => _idRol = value; }
+        public string Rol { get => _rol; set => _rol = value; }
     }
 }

@@ -35,6 +35,22 @@ namespace Datos
             return dt;
         }
 
+        public void AnularVenta(E_Ventas ventas)
+        {
+            SqlCommand cmd = new SqlCommand("usp_VentaAnulada", cnn)
+            {
+                CommandType = CommandType.StoredProcedure
+            };
+
+            cnn.Open();
+
+            cmd.Parameters.AddWithValue("@IdVenta", ventas.IdVenta);
+
+            cmd.ExecuteNonQuery();
+
+            cnn.Close();
+        }
+
         public string InsertarVentas(E_Ventas ventas, List<E_DetalleVentas> detalleVentas)
         {
             string respuesta;

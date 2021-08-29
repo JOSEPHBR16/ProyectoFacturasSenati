@@ -107,5 +107,26 @@ namespace Datos
                 Conexion.getClose();
             }
         }
+
+        public void EliminarProducto(E_Productos productos)
+        {
+            try
+            {
+                SqlConnection cnn = Conexion.getConexion();
+                SqlCommand cmd = new SqlCommand("usp_ProductoDelete", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdProducto", productos.IdProducto);
+                cnn.Open();
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                Conexion.getClose();
+            }
+        }
     }
 }

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Presentacion.Login;
 
 namespace Presentacion
 {
@@ -22,6 +23,7 @@ namespace Presentacion
         }
         private void Clientes_Load(object sender, EventArgs e)
         {
+            //Roles();
             MostrarClientes();
             CountRowsData();
         }
@@ -63,36 +65,58 @@ namespace Presentacion
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            RegistrarCliente registrarCliente = new RegistrarCliente(this);
-            AddOwnedForm(registrarCliente);
-            registrarCliente.UpdateEventHandler += AgPrd_UpdateEventHandlerI;
-            registrarCliente.ShowDialog();
+            bool rpta = Roles();
+
+            if (rpta == true)
+                MessageBox.Show("No tiene permisos de administrador.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
+            {
+                RegistrarCliente registrarCliente = new RegistrarCliente(this);
+                AddOwnedForm(registrarCliente);
+                registrarCliente.UpdateEventHandler += AgPrd_UpdateEventHandlerI;
+                registrarCliente.ShowDialog();
+            }
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            EditarCliente editarCliente = new EditarCliente(this);
-            AddOwnedForm(editarCliente);
-            editarCliente.UpdateEventHandler += AgPrd_UpdateEventHandlerE;
-            editarCliente.lblIdCliente.Text = dgvClientes.CurrentRow.Cells[0].Value.ToString();
-            editarCliente.txtNombre.Text = dgvClientes.CurrentRow.Cells[1].Value.ToString();
-            editarCliente.txtDireccion.Text = dgvClientes.CurrentRow.Cells[2].Value.ToString();
-            editarCliente.txtCorreo.Text = dgvClientes.CurrentRow.Cells[3].Value.ToString();
-            editarCliente.txtTelefono.Text = dgvClientes.CurrentRow.Cells[4].Value.ToString();
-            editarCliente.ShowDialog();
+            bool rpta = Roles();
+
+            if (rpta == true)
+                MessageBox.Show("No tiene permisos de administrador.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
+            {
+                EditarCliente editarCliente = new EditarCliente(this);
+                AddOwnedForm(editarCliente);
+                editarCliente.UpdateEventHandler += AgPrd_UpdateEventHandlerE;
+                editarCliente.lblIdCliente.Text = dgvClientes.CurrentRow.Cells[0].Value.ToString();
+                editarCliente.txtNombre.Text = dgvClientes.CurrentRow.Cells[1].Value.ToString();
+                editarCliente.txtDireccion.Text = dgvClientes.CurrentRow.Cells[2].Value.ToString();
+                editarCliente.txtCorreo.Text = dgvClientes.CurrentRow.Cells[3].Value.ToString();
+                editarCliente.txtTelefono.Text = dgvClientes.CurrentRow.Cells[4].Value.ToString();
+                editarCliente.ShowDialog();
+            }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            DialogResult rs;
-            rs = MessageBox.Show("Desea eliminar el registro?", "Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (rs == DialogResult.Yes)
+            bool rpta = Roles();
+
+            if(rpta == true)
+                MessageBox.Show("No tiene permisos de administrador.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
             {
-                Eliminar();
-                MessageBox.Show("Registro eliminado con exito.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                MostrarClientes();
-                CountRowsData();
+                DialogResult rs;
+                rs = MessageBox.Show("Desea eliminar el registro?", "Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rs == DialogResult.Yes)
+                {
+                    Eliminar();
+                    MessageBox.Show("Registro eliminado con exito.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MostrarClientes();
+                    CountRowsData();
+                }
             }
+            
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -109,6 +133,24 @@ namespace Presentacion
             clientes.IdCLiente = int.Parse(id);
 
             objNegocio.EliminarCliente(clientes);
+        }
+
+        private bool Roles()
+        {
+            bool rpta;
+            if (Global.IdRol == 2)
+            {
+                rpta = true;
+                
+                //btnNuevo.Enabled = false;
+                //btnEditar.Enabled = false;
+                //btnEliminar.Enabled = false;
+            }
+            else
+            {
+                rpta = false;
+            }
+            return rpta;
         }
     }
 }

@@ -56,6 +56,9 @@ namespace Presentacion
                 MessageBox.Show("Se inserto correctamente.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 MostrarProductos();
                 CountRowsData();
+                btnGuardar.Enabled = false;
+                btnNuevo.Enabled = true;
+                btnEditar.Enabled = true;
                 Limpiar();
             }
         }

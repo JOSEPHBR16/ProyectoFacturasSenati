@@ -32,5 +32,10 @@ namespace Negocio
         {
             objDatos.ActualizarProducto(pro);
         }
+
+        public void EliminarProducto(E_Productos productos)
+        {
+            objDatos.EliminarProducto(productos);
+        }
     }
 }

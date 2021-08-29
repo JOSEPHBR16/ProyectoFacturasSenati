@@ -54,7 +54,7 @@ namespace Presentacion
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            Productos pro = new Productos();
+            Producto pro = new Producto();
             AddOwnedForm(pro);
             pro.ShowDialog();
             txtCantidad.Focus();

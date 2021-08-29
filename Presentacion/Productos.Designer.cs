@@ -304,6 +304,7 @@ namespace Presentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(572, 467);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.btnCancelar);
@@ -314,6 +315,7 @@ namespace Presentacion
             this.Controls.Add(this.dgvProductos);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "Productos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Productos";

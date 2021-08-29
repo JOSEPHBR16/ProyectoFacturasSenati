@@ -6,7 +6,11 @@ C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Entidades\obj\Debug\Entidades
 C:\Users\JOTITO\Desktop\SistemaDeCotizacionYVentas\Entidades\obj\Debug\Entidades.pdb
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\bin\Debug\Entidades.dll
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\bin\Debug\Entidades.pdb
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\obj\Debug\Entidades.csproj.CopyComplete
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\obj\Debug\Entidades.dll
 C:\Users\JOTITO\Desktop\TR1 Manco\SistemaDeCotizacionYVentas\Entidades\obj\Debug\Entidades.pdb

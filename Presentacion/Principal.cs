@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Presentacion.Login;
 
 namespace Presentacion
 {
@@ -128,6 +129,46 @@ namespace Presentacion
         private void Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+            toolStripStatusLabel.Text = "USUARIO: " + Global.Usuario;
+            toolStripStatusLabel1.Text = "ROL: " + Global.Rol;
+        }
+
+        private void cerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            Hide();
+            login.Show();
+        }
+
+        private void reporteClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reporte_Clientes clientes = new Reporte_Clientes();
+            clientes.Show();
+        }
+
+        private void clientesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Clientes form2 = new Clientes();
+            form2.Show();
+            form2.MdiParent = this;
+        }
+
+        private void productosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Producto productos = new Producto();
+            productos.MdiParent = this;
+            productos.Show();
+        }
+
+        private void ventasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Ventas ventas = new Ventas();
+            ventas.MdiParent = this;
+            ventas.Show();
         }
     }
 }

@@ -33,5 +33,10 @@ namespace Negocio
             }
             return objVentas.InsertarVentas(ventas, detalles);
         } 
+
+        public void AnularVenta(E_Ventas ventas)
+        {
+            objVentas.AnularVenta(ventas);
+        }
     }
 }

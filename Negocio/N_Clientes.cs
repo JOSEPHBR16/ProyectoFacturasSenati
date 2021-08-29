@@ -13,6 +13,8 @@ namespace Negocio
     {
         D_Clientes objDatos = new D_Clientes();
 
+        public List<E_Clientes> generarReportes { get; private set; }
+
         public DataTable ListadoClientes()
         {
             return objDatos.getAllClients();

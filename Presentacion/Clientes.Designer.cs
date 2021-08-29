@@ -192,6 +192,7 @@ namespace Presentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(760, 383);
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.dgvClientes);
@@ -200,6 +201,7 @@ namespace Presentacion
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "Clientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
@@ -216,10 +218,6 @@ namespace Presentacion
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnNuevo;
-        private System.Windows.Forms.Button btnEditar;
-        private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnSalir;
         public System.Windows.Forms.DataGridView dgvClientes;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
@@ -227,5 +225,9 @@ namespace Presentacion
         private System.Windows.Forms.DataGridViewTextBoxColumn Correo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefono;
         private System.Windows.Forms.Label lblCount;
+        public System.Windows.Forms.Button btnNuevo;
+        public System.Windows.Forms.Button btnEditar;
+        public System.Windows.Forms.Button btnEliminar;
+        public System.Windows.Forms.Button btnSalir;
     }
 }

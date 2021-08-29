@@ -21,6 +21,9 @@ namespace Presentacion
         public static class Global
         {
             public static int IdUsuario;
+            public static string Usuario;
+            public static int IdRol;
+            public static string Rol;
         }
 
         public Login()
@@ -111,13 +114,22 @@ namespace Presentacion
 
             if(dt.Rows.Count > 0)
             {
+                var usuarioLogin = dt.Rows[0][1].ToString() + " " + dt.Rows[0][2].ToString();
+                var rol = dt.Rows[0][6].ToString();
+                var idrol = int.Parse(dt.Rows[0][5].ToString());
+                Global.Usuario = usuarioLogin;
+                Global.Rol = rol;
+                Global.IdRol = idrol;
+
                 Global.IdUsuario = entidad.IdUsuario = int.Parse(dt.Rows[0][0].ToString());
                 entidad.Nombres = dt.Rows[0][1].ToString();
                 entidad.Apellidos = dt.Rows[0][2].ToString();
                 entidad.Usuario = dt.Rows[0][3].ToString();
                 entidad.Contrasenia = dt.Rows[0][4].ToString();
                 entidad.IdRol = int.Parse(dt.Rows[0][5].ToString());
-                MessageBox.Show($"Bienevido al sistema. {Global.IdUsuario} {entidad.Apellidos} {entidad.Usuario} {entidad.IdRol}", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                entidad.Rol = dt.Rows[0][6].ToString();
+
+                MessageBox.Show($"Bienevido al sistema.", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Principal principal = new Principal();
                 Hide();
                 principal.WindowState = FormWindowState.Maximized;

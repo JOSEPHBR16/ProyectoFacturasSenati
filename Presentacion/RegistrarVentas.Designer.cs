@@ -124,7 +124,7 @@ namespace Presentacion
             this.groupBox1.Controls.Add(this.txtIdProducto);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(13, 210);
+            this.groupBox1.Location = new System.Drawing.Point(13, 202);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(431, 138);
             this.groupBox1.TabIndex = 3;
@@ -309,7 +309,7 @@ namespace Presentacion
             // 
             // btnGuardarRegistro
             // 
-            this.btnGuardarRegistro.Location = new System.Drawing.Point(494, 210);
+            this.btnGuardarRegistro.Location = new System.Drawing.Point(494, 205);
             this.btnGuardarRegistro.Name = "btnGuardarRegistro";
             this.btnGuardarRegistro.Size = new System.Drawing.Size(100, 37);
             this.btnGuardarRegistro.TabIndex = 5;
@@ -319,7 +319,7 @@ namespace Presentacion
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(494, 305);
+            this.button5.Location = new System.Drawing.Point(494, 300);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(100, 37);
             this.button5.TabIndex = 8;
@@ -328,7 +328,7 @@ namespace Presentacion
             // 
             // txtMontoBase
             // 
-            this.txtMontoBase.Location = new System.Drawing.Point(130, 579);
+            this.txtMontoBase.Location = new System.Drawing.Point(130, 570);
             this.txtMontoBase.Name = "txtMontoBase";
             this.txtMontoBase.Size = new System.Drawing.Size(73, 20);
             this.txtMontoBase.TabIndex = 17;
@@ -336,7 +336,7 @@ namespace Presentacion
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(57, 582);
+            this.label10.Location = new System.Drawing.Point(57, 573);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(67, 13);
             this.label10.TabIndex = 16;
@@ -344,7 +344,7 @@ namespace Presentacion
             // 
             // txtIGV
             // 
-            this.txtIGV.Location = new System.Drawing.Point(285, 579);
+            this.txtIGV.Location = new System.Drawing.Point(285, 570);
             this.txtIGV.Name = "txtIGV";
             this.txtIGV.Size = new System.Drawing.Size(73, 20);
             this.txtIGV.TabIndex = 19;
@@ -352,7 +352,7 @@ namespace Presentacion
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(251, 582);
+            this.label11.Location = new System.Drawing.Point(251, 573);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(28, 13);
             this.label11.TabIndex = 18;
@@ -376,7 +376,7 @@ namespace Presentacion
             // 
             // txtMontoTotal
             // 
-            this.txtMontoTotal.Location = new System.Drawing.Point(480, 579);
+            this.txtMontoTotal.Location = new System.Drawing.Point(480, 570);
             this.txtMontoTotal.Name = "txtMontoTotal";
             this.txtMontoTotal.Size = new System.Drawing.Size(73, 20);
             this.txtMontoTotal.TabIndex = 23;
@@ -384,7 +384,7 @@ namespace Presentacion
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(407, 582);
+            this.label13.Location = new System.Drawing.Point(407, 573);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(67, 13);
             this.label13.TabIndex = 22;
@@ -398,7 +398,7 @@ namespace Presentacion
             this.dgvVentas.AllowUserToResizeRows = false;
             this.dgvVentas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVentas.Location = new System.Drawing.Point(13, 354);
+            this.dgvVentas.Location = new System.Drawing.Point(13, 349);
             this.dgvVentas.Name = "dgvVentas";
             this.dgvVentas.ReadOnly = true;
             this.dgvVentas.RowHeadersVisible = false;
@@ -408,7 +408,7 @@ namespace Presentacion
             // 
             // btnQuitar
             // 
-            this.btnQuitar.Location = new System.Drawing.Point(494, 262);
+            this.btnQuitar.Location = new System.Drawing.Point(494, 257);
             this.btnQuitar.Name = "btnQuitar";
             this.btnQuitar.Size = new System.Drawing.Size(100, 28);
             this.btnQuitar.TabIndex = 16;
@@ -420,7 +420,8 @@ namespace Presentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(631, 611);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(631, 597);
             this.Controls.Add(this.btnQuitar);
             this.Controls.Add(this.dgvVentas);
             this.Controls.Add(this.txtMontoTotal);
@@ -436,6 +437,7 @@ namespace Presentacion
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "RegistrarVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ventas";
