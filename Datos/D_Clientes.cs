@@ -1,6 +1,7 @@
 ﻿using Entidades;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -11,13 +12,15 @@ namespace Datos
 {
     public class D_Clientes
     {
+        readonly SqlConnection cnn = new SqlConnection(ConfigurationManager.ConnectionStrings["Conexion"].ToString());
         public DataTable getAllClients()
         {
             DataTable dt = new DataTable();
 
             try
             {
-                SqlConnection cnn = Conexion.getConexion();
+                cnn.Open();
+                //SqlConnection cnn = Conexion.getConexion();
                 SqlCommand command = new SqlCommand("usp_ClientesGet", cnn);
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataAdapter da = new SqlDataAdapter(command);
@@ -27,6 +30,10 @@ namespace Datos
             {
                 Console.WriteLine(ex.ToString());
             }
+            finally
+            {
+                cnn.Close();
+            }
 
             return dt;
         }
@@ -35,14 +42,14 @@ namespace Datos
         {
             try
             {
-                SqlConnection cnn = Conexion.getConexion();
+                cnn.Open();
+                //SqlConnection cnn = Conexion.getConexion();
                 SqlCommand cmd = new SqlCommand("usp_ClienteInsert", cnn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@Nombre", clientes.Nombre);
                 cmd.Parameters.AddWithValue("@Direccion", clientes.Direccion);
                 cmd.Parameters.AddWithValue("@Correo", clientes.Correo);
                 cmd.Parameters.AddWithValue("@Telefono", clientes.Telefono);
-                cnn.Open();
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -51,7 +58,7 @@ namespace Datos
             }
             finally
             {
-                Conexion.getClose();
+                cnn.Close();
             }
         }
 
@@ -59,7 +66,8 @@ namespace Datos
         {
             try
             {
-                SqlConnection cnn = Conexion.getConexion();
+                cnn.Open();
+                //SqlConnection cnn = Conexion.getConexion();
                 SqlCommand cmd = new SqlCommand("usp_ClienteUpdate", cnn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@IdCliente", clientes.IdCLiente);
@@ -67,7 +75,6 @@ namespace Datos
                 cmd.Parameters.AddWithValue("@Direccion", clientes.Direccion);
                 cmd.Parameters.AddWithValue("@Correo", clientes.Correo);
                 cmd.Parameters.AddWithValue("@Telefono", clientes.Telefono);
-                cnn.Open();
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -76,7 +83,7 @@ namespace Datos
             }
             finally
             {
-                Conexion.getClose();
+                cnn.Close();
             }
         }
 
@@ -84,11 +91,11 @@ namespace Datos
         {
             try
             {
-                SqlConnection cnn = Conexion.getConexion();
+                cnn.Open();
+                //SqlConnection cnn = Conexion.getConexion();
                 SqlCommand cmd = new SqlCommand("usp_ClienteDelete", cnn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@IdCliente", clientes.IdCLiente);
-                cnn.Open();
                 cmd.ExecuteNonQuery();
             }
             catch(Exception ex)
@@ -97,7 +104,7 @@ namespace Datos
             }
             finally
             {
-                Conexion.getClose();
+                cnn.Close();
             }
         }
     }

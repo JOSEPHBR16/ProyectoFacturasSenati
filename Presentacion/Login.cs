@@ -152,5 +152,11 @@ namespace Presentacion
             Hide();
             registro.ShowDialog();
         }
+
+        private void btnConfiguracion_Click(object sender, EventArgs e)
+        {
+            ConfiguracionServidor configuracion = new ConfiguracionServidor();
+            configuracion.ShowDialog();
+        }
     }
 }

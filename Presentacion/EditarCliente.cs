@@ -42,7 +42,7 @@ namespace Presentacion
             else
             {
                 Actualizar();
-                MessageBox.Show("Se inserto correctamente.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Se edito correctamente.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Agregar();
                 this.Close();
             }

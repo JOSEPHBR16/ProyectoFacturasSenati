@@ -1,6 +1,7 @@
 ﻿using Entidades;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -11,11 +12,11 @@ namespace Datos
 {
     public class D_Usuario
     {
+        readonly SqlConnection cnn = new SqlConnection(ConfigurationManager.ConnectionStrings["Conexion"].ToString());
+
         public DataTable LoginUser(E_Usuarios usuarios)
         {
             DataTable dt = new DataTable();
-            //string query = "SELECT IdMascota, IdPropietario, NomMascota FROM Mascota WHERE IdPropietario = @id_prop";
-            SqlConnection cnn = Conexion.getConexion();
 
             try
             {
@@ -43,14 +44,15 @@ namespace Datos
         {
             try
             {
-                SqlConnection cnn = Conexion.getConexion();
+                //SqlConnection cnn = Conexion.getConexion();
+                cnn.Open();
                 SqlCommand cmd = new SqlCommand("usp_CrearUsuario", cnn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@Nombre", usuarios.Nombres);
                 cmd.Parameters.AddWithValue("@Apellidos", usuarios.Apellidos);
                 cmd.Parameters.AddWithValue("@Usuario", usuarios.Usuario);
                 cmd.Parameters.AddWithValue("@Contrasenia", usuarios.Contrasenia);
-                cnn.Open();
+                //cnn.Open();
                 cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
@@ -59,7 +61,7 @@ namespace Datos
             }
             finally
             {
-                Conexion.getClose();
+                cnn.Close();
             }
         }
     }

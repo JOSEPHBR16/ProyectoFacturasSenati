@@ -1,10 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
+using static System.Configuration.ConfigurationManager;
+
 
 namespace Datos
 {
@@ -36,5 +41,7 @@ namespace Datos
             if (getConexion().State == ConnectionState.Open)
                 getConexion().Close();
         }
+
+        
     }
 }
