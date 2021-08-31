@@ -22,7 +22,7 @@ namespace Datos
 
             try
             {
-                SqlConnection cnn = Conexion.getConexion();
+                cnn.Open();
                 SqlCommand command = new SqlCommand("usp_ListarVentas", cnn);
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataAdapter da = new SqlDataAdapter(command);
@@ -31,6 +31,10 @@ namespace Datos
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                cnn.Close();
             }
             return dt;
         }
